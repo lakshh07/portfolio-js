@@ -1,0 +1,52 @@
+.container-pre {
+  display: flex;
+  position: relative;
+  top: 100px;
+  flex-direction: column;
+  overflow: hidden;
+}
+.preloader {
+  position: relative;
+  color: whitesmoke;
+  font-size: 70px;
+  text-transform: uppercase;
+  margin: 70px;
+  justify-content: center;
+}
+.percentage {
+  position: relative;
+  -webkit-text-stroke: 1px rgb(245, 245, 245);
+  color: transparent;
+}
+.blink {
+  -webkit-text-stroke: 1px rgb(245, 245, 245);
+  color: transparent;
+  opacity: 0;
+  animation: blinks 0.2s ease-in-out infinite;
+}
+@keyframes blinks {
+  100% {
+    opacity: 1;
+  }
+}
+.para {
+  font-size: 0.8rem;
+  position: relative;
+  left: 10%;
+}
+@media screen and (max-width: 767px) {
+  .preloader {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .container-pre {
+    position: relative;
+    top: 200px;
+  }
+  .preloader {
+    margin-left: 9px;
+    margin-right: 9px;
+    font-size: 30px;
+  }
+}
