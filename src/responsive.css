@@ -418,7 +418,7 @@
   /*//////////////////////////////////////////*/
   /*/ /////////////////////////////////////////*/
   .section3 {
-    padding-top: 30px;
+    padding-top: 40px;
   }
   .section3-msg h1 {
     padding-left: 0;
@@ -515,7 +515,7 @@
     padding-bottom: 15px;
   }
   .section2-msg {
-    padding-top: 100px;
+    padding-top: 50px;
   }
   .contact h1 {
     font-size: 30px;
@@ -536,6 +536,12 @@
 @media screen and (max-width: 375px) {
   .heading {
     font-size: 60px;
+  }
+  .section2-msg {
+    padding-top: 65px;
+  }
+  .section3 {
+    padding-top: 45px;
   }
   .section2-heading,
   .section3-heading,
