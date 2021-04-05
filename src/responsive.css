@@ -14,6 +14,7 @@
     outline: none;
     box-shadow: none;
     border: solid transparent;
+    padding: 1.5px;
   }
   .btn-menu span {
     font-family: "JetBrains Mono", monospace;
@@ -416,7 +417,9 @@
 
   /*//////////////////////////////////////////*/
   /*/ /////////////////////////////////////////*/
-
+  .section3 {
+    padding-top: 30px;
+  }
   .section3-msg h1 {
     padding-left: 0;
   }
@@ -522,6 +525,9 @@
   .heading {
     font-size: 60px;
   }
+  .section2-msg {
+    padding-top: 80px;
+  }
   .section2-heading,
   .section3-heading,
   .section4-heading {
@@ -530,5 +536,8 @@
   .contact h1 {
     font-size: 28.4px;
     padding: 1px;
+  }
+  .contact p {
+    font-size: 12px;
   }
 }
