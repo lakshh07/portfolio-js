@@ -508,6 +508,12 @@
   .btn-menu {
     padding: 3px;
   }
+  .menu-top span {
+    top: -33.5px;
+  }
+  .section2-msg {
+    padding-top: 100px;
+  }
   .contact h1 {
     font-size: 30px;
   }
@@ -527,9 +533,6 @@
 @media screen and (max-width: 375px) {
   .heading {
     font-size: 60px;
-  }
-  .section2-msg {
-    padding-top: 80px;
   }
   .section2-heading,
   .section3-heading,
