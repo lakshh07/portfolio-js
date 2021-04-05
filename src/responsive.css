@@ -509,7 +509,10 @@
     padding: 3px;
   }
   .menu-top span {
-    top: -33.5px;
+    top: -34.5px;
+  }
+  .greetings {
+    padding-bottom: 15px;
   }
   .section2-msg {
     padding-top: 100px;
