@@ -325,6 +325,7 @@ nav {
   height: 90vh;
   background-color: #111;
   padding-top: 50px;
+  margin-bottom: 50px;
   justify-content: space-between;
 }
 .section2-msg {
