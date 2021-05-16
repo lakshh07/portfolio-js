@@ -120,14 +120,14 @@ function loader(_success) {
 }
 loader();
 
-// // Use of F12 key on the browser
-// $(document).keydown(function (e) {
-//   if (e.which === 123) {
-//     return false;
-//   }
-// });
+// Use of F12 key on the browser
+$(document).keydown(function (e) {
+  if (e.which === 123) {
+    return false;
+  }
+});
 
-// // Use of Right click
-// $(document).bind("contextmenu", function (e) {
-//   e.preventDefault();
-// });
+// Use of Right click
+$(document).bind("contextmenu", function (e) {
+  e.preventDefault();
+});
